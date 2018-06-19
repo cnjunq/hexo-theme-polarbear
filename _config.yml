@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2014
+since: 2017
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -17,8 +17,11 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
+  Courses: /courses
   Archives: /archives
+  Presentations: /presentations
   About: /about
+
 
 # ===========================================
 # Widget Settings
@@ -30,12 +33,12 @@ menu:
 #   content: Add your html code in here. Example: <p>testing...</p>
 widget:
   Tags: true
-  Categories: false
-  Custom: false
+  Categories: true
+  Custom: true
 
 widget_custom:
-    title: Test
-    content: <p>testing...</p>
+    title: 微信公众号
+    content: <img alt="微信公众号：程序员精进" title="微信公众号：程序员精进" src="//pv-web-1254063420.cos.ap-beijing.myqcloud.com/images/programmer_viriya_qr_code_scan_500.png">
 
 # ===========================================
 # Theme Settings
@@ -50,6 +53,13 @@ theme:
 # Third Party Services Settings
 # ===========================================
 
+#MobShare
+sharesdk: true
+shareSDKappkey: 2652bf8c6afe9
+
+# copyright license
+post_copyright: true
+
 # Baidu Analytics
 baidu_analytics:
 # Google Analytics
@@ -58,7 +68,7 @@ google_analytics:
 # Duoshuo
 duoshuo_shortname:
 # Disqus
-disqus_shortname:
+disqus_shortname: cheng-xu-yuan-jing-jin
 
 
 # ===========================================

@@ -10,7 +10,7 @@
       </h1>
 
       <time class="post-time">
-          {{ full_date(post.date, 'MMM DD YYYY') }}
+          {{ full_date(post.date, 'YYYY-MM-DD') }}
       </time>
     </header>
 
@@ -34,6 +34,14 @@
             {{ post.content }}
             </div>
           {% endif %}
+
+    {% if not is_home() and theme.post_copyright %}
+        {% include "../_partial/_widget/post_copyright.swig" %}
+    {% endif %}
+
+    {% if not is_home() and theme.sharesdk %}
+      {% include "../_partial/_widget/mobshare.swig" %}
+    {% endif %}
 
     {% if not is_home() %}
       <footer class="post-footer">

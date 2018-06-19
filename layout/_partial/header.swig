@@ -1,6 +1,7 @@
 <div class="site-header-inner">
     <h1 class="site-title">
-        <a href="{{ url_for('.') }}" class="logo">{{ config.title }}</a>
+        <a href="{{ url_for('.') }}" class="logo">{{ config.title }}
+        </a>
     </h1>
 
     <nav id="nav-top">
@@ -11,7 +12,7 @@
                         <a href="{{ url_for(path) }}">
                             {% set itemName = 'menu.' + name.toLowerCase() %}
                             {% if itemName.startsWith('menu') %}
-                                {{ name }}
+                                {{ __(itemName) }}
                             {% else %}
                                 {{ __(itemName) }}
                             {% endif %}

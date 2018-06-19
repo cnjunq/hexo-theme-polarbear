@@ -1,9 +1,14 @@
 menu:
   home: 首页
-  archives: 归档
+  archives: 文章归档
   tags: 标签
   categories: 分类
   about: 关于
+  courses: 课程
+  slides: 幻灯片
+  presentations: 演讲
+
+categories: 分类
 
 footer:
   powered: "由 %s 强力驱动"
@@ -17,9 +22,9 @@ posts:
 
 counter:
   archives:
-    zero: 暂无日志
-    one: 目前共计 1 篇日志
-    other: "目前共计 %d 篇日志"
+    zero: 暂无文章
+    one: 目前共计 1 篇文章
+    other: "目前共计 %d 篇文章"
 
   tagcloud:
     zero: 暂无标签

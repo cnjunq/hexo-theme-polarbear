@@ -18,6 +18,18 @@
         {%- include '_partial/footer.swig' %}
       </footer>
 
+      <!-- baidu tongji -->
+      <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?e1bc5e17e6a69ecb65130240b1313246";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+
+
       <div class="back-to-top" id="back-to-top">
         <i class="iconfont icon-up"></i>
       </div>

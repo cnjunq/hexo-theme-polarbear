@@ -9,6 +9,7 @@
 
   .post-link {
     @include underline-from-center;
+    color: $post-title-font-color;
   }
 
 }
